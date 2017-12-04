@@ -3,11 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.example.pdg.qr_reader.CameraPreview
+    <com.example.pdg.qr_reader2.CameraPreview
         android:id="@+id/cameraView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
+    <!--<ZoomControls-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"></ZoomControls>-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -25,5 +28,9 @@
             android:textStyle="bold"
             android:textColor="#fcfcfc"/>
 
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
     </LinearLayout>
 </FrameLayout>
